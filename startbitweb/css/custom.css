@@ -1,0 +1,67 @@
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:  var(--color-primary-darker);
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+.startbit-logo{
+    height: 50px;
+    width: 50px;
+}
+
+.bangla-text{
+    font-family: 'Baloo Da 2', cursive !important;
+}
+
+.call-action-btn:hover{
+    color: #fff;
+}
+
+.yt-btn:hover{
+    background-color: rgb(250, 192, 192) !important;
+    color: brown !important;
+}
+
+.tag-card{
+    border-radius: 3px;
+    margin-left: 6px;
+    margin-bottom: 4px !important;
+    opacity: 0.6;
+}
+
+.tag-card:hover{
+    opacity: 1;
+}
+
+.tags-holder{
+    margin-top: 10px;
+}
+
+.student-count-tag{
+    background-color: rgb(23, 168, 120);
+}
+
+.content-section-with-devider{
+    border-bottom: 2px dashed #d8d8d8;
+    padding-bottom: 4em;
+}
+
+.dark .dark\:content-section-with-devider-dark {
+    border-bottom: 2px dashed #393840;
+    padding-bottom: 4em;
+  }

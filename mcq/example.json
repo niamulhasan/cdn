@@ -2,6 +2,7 @@
 	"title": "A Title of a test MCQ Exam",
 	"author": "John Doe",
 	"duration_seconds": 30000,
+	"total_marks": 3.5,
 	"beginning_note": "A note to show at the start of the exam",
 	"ending_note": "A note to show at the end of the exam",
 	"tags": ["Example tag one", "another tag", "third tag"],

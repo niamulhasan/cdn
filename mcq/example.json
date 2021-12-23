@@ -1,0 +1,49 @@
+{
+	"title": "A Title of a test MCQ Exam",
+	"author": "John Doe",
+	"duration_seconds": 30000,
+	"beginning_note": "A note to show at the start of the exam",
+	"ending_note": "A note to show at the end of the exam",
+	"tags": ["Example tag one", "another tag", "third tag"],
+	"subject_code": "cse123",
+	"questions": [{
+			"question": "The title of the question goes here?",
+			"options": [
+				"Option One",
+				"Option Two the correct ans",
+				"Option Three",
+				"Option Four"
+			],
+			"correct_ans": [1],
+			"marks": 1,
+			"hint": "The hint which is optional",
+			"images": [
+				"https://picsum.photos/200/300",
+				"https://picsum.photos/200/300"
+			]
+		},
+		{
+			"question": "The title of the question two goes here?",
+			"options": [
+				"Option One",
+				"Option Two the correct ans",
+				"Option Three",
+				"Option Four"
+			],
+			"correct_ans": [3, 0],
+			"marks": 1.5
+		},
+		{
+			"question": "The title of the third question goes here?",
+			"options": [
+				"Option One",
+				"Option Two the correct ans",
+				"Option Three",
+				"Option Four"
+			],
+			"correct_ans": [1],
+			"marks": 1,
+			"hint": "The hint which is optional"
+		}
+	]
+}
